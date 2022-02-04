@@ -1,0 +1,47 @@
+// FONTS ----------------------------
+// https://fonts.google.com/
+$primary-font: sans-serif;
+$secondary-font: Arial;
+
+// COLORS ----------------------------
+$primary-color: hsl(226, 76%, 43%);
+// $dark-primary-color: hsl(0, 33%, 1%);
+// $darker-primary-color: hsl(0, 0%, 0%);
+// $light-primary-color: hsl(0, 0%, 30%);
+// $lighter-primary-color: hsl(0, 0%, 40%);
+
+$secondary-color: hsl(235, 93%, 5%);
+// $light-secondary-color: hsl(235, 92%, 15%);
+// $lighter-secondary-color: hsl(235, 93%, 25%);
+// $dark-primary-color: hsl(235, 93%, 5%);
+// $darker-primary-color: hsl(235, 93%, 5%);
+
+// $alt-color: hsl(214, 98%, 60%);
+
+$white: #ffffff;
+$black: #000000;
+
+$grayscale-100: hsl(0, 0%, 90%);
+$grayscale-200: hsl(0, 0%, 80%);
+$grayscale-300: hsl(0, 0%, 70%);
+$grayscale-400: hsl(0, 0%, 60%);
+$grayscale-500: hsl(0, 0%, 51%);
+$grayscale-600: hsl(0, 0%, 40%);
+$grayscale-700: hsl(0, 0%, 30%);
+$grayscale-800: hsl(0, 0%, 20%);
+$grayscale-900: hsl(0, 0%, 10%);
+
+// MEDIA QUERIES WIDTH ----------------------------
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+// MAIN-WEBPAGE-CONTAINER MAX-WIDTH ---------------------
+$container-xsm: 460px;
+$container-sm: 540px;
+$container-md: 720px;
+$container-lg: 960px;
+$container-xl: 1140px;
+$container-xxl: 1320px;

@@ -1,0 +1,20 @@
+.main-webpage-container {
+  max-width: $container-xsm;
+  margin: 0 auto;
+
+  @include mq($sm) {
+    max-width: $container-sm;
+  }
+  @include mq($md) {
+    max-width: $container-md;
+  }
+  @include mq($lg) {
+    max-width: $container-lg;
+  }
+  @include mq($xl) {
+    max-width: $container-xl;
+  }
+  @include mq($xxl) {
+    max-width: $container-xxl;
+  }
+}

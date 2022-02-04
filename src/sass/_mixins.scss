@@ -1,0 +1,35 @@
+// Media Queries (Mobile First)
+@mixin mq($width) {
+  @media (min-width: #{$width}) {
+    @content;
+  }
+}
+
+// Make color (hex) to alpha
+@function toAlpha($color, $level) {
+  @if $color == #fff {
+    $color: #{$color}fff;
+  } @else if $color == #000 {
+    $color: '#{$color}000';
+  }
+  @if $level == 100 {
+    $color: #{$color}1a;
+  } @else if $level == 200 {
+    $color: #{$color}33;
+  } @else if $level == 300 {
+    $color: #{$color}4d;
+  } @else if $level == 400 {
+    $color: #{$color}66;
+  } @else if $level == 500 {
+    $color: #{$color}80;
+  } @else if $level == 600 {
+    $color: #{$color}99;
+  } @else if $level == 700 {
+    $color: #{$color}b3;
+  } @else if $level == 800 {
+    $color: #{$color}cc;
+  } @else if $level == 900 {
+    $color: #{$color}e6;
+  }
+  @return $color;
+}
